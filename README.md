@@ -2,10 +2,12 @@ dynamic nodejs app with dynamodb
 ----------------------------------------------------
 
 yum install git -y 
+
 git init 
+
 git pull https://github.com/BSBiradar/Nodejswebapps.git
 ----------------------------------------------------
-cd dynamic-website-with-dynamodb
+cd dynamic-website-with-dynamodb   
 yum install nodejs -y 
 npm install 
 npm install pm2@latest -g 
