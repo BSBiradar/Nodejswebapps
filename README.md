@@ -1,9 +1,12 @@
-dynamic nodejs app with dynamodb
+nodejs app with ec2 only
+----------------------------------------------------------------------------------------------------------------------------------------
 yum install git -y
 
 git init
 
 git pull https://github.com/BSBiradar/Nodejswebapps.git
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
 cd dynamic-website-with-dynamodb
 
 yum install nodejs -y
@@ -15,6 +18,8 @@ npm install pm2@latest -g
 pm2 start app.js
 
 pm2 logs
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 then go to chrome check with : http://(ipaddr):3000 your application is visible to you
 
