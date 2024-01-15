@@ -1,12 +1,10 @@
 #nodejs app with ec2 only
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 yum install git -y
 
 git init
 
 ##git pull https://github.com/BSBiradar/Nodejswebapps.git
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 '''
 cd dynamic-website-with-dynamodb
@@ -43,5 +41,5 @@ pm2 restart app.js
 
 ##to forword traffic 
 
-# Redirect traffic from port 3000 to port 80
+# Redirect traffic from port 80 to port 3000
 sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000
